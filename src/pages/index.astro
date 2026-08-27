@@ -1,0 +1,17 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Plate from '@198x-ui/components/Plate.astro';
+---
+
+<BaseLayout>
+  <main>
+    <Plate prefix="debug" project="debug" size={40} href="/" />
+    <h1>One debug format, every 198x tool.</h1>
+    <p class="lead">Debug198x is the shared debug-information format: what the assembler emits, what the emulator reads, and what a source-level debugger needs in between.</p>
+    <p class="status">Specified and emitting; the format freeze waits on the Emu198x importer.</p>
+    <footer>
+      One of the <a href="https://github.com/debug198x">198x family</a>. The
+      wordmark, palette and type come from <a href="https://github.com/stevehill1981/198x-ui">198x-ui</a>.
+    </footer>
+  </main>
+</BaseLayout>
