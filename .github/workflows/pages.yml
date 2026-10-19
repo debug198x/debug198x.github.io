@@ -22,4 +22,4 @@ concurrency:
 jobs:
   pages:
     name: Pages
-    uses: stevehill1981/198x-workflows/.github/workflows/pages-astro.yml@feat/pages-astro
+    uses: stevehill1981/198x-workflows/.github/workflows/pages-astro.yml@v1
